@@ -1,0 +1,22 @@
+{
+    "name": "sveltekit-dev",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "dev",
+    "runServices": ["dev"],                  
+    "shutdownAction": "stopCompose",
+    "workspaceFolder": "/project",
+    "forwardPorts": [5173, 3000, 24678],
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "svelte.svelte-vscode",
+          "dbaeumer.vscode-eslint",
+          "esbenp.prettier-vscode"
+        ],
+        "settings": {
+          "terminal.integrated.defaultProfile.linux": "sh"
+        }
+      }
+    },
+    "remoteUser": "root"
+  }

@@ -1,0 +1,14 @@
+services:
+  dev:
+    build:
+      context: .
+      dockerfile: .devcontainer/Dockerfile
+    volumes:
+      - ./app:/project/app
+      - nodemodules_cache:/project/app/node_modules
+    working_dir: /project
+    stdin_open: true     
+    tty: true 
+
+volumes:
+  nodemodules_cache:
