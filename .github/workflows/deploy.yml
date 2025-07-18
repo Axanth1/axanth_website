@@ -43,7 +43,7 @@ jobs:
       - name: Clone K8s Config Repo
         uses: actions/checkout@v4
         with:
-          repository: axanth1/workflow-k-configs
+          repository: axanth1/workflow-k8s-configs
           token: ${{ secrets.GIT_PAT }}
           path: workflow-k8s-configs
 
