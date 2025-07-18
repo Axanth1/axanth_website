@@ -17,7 +17,7 @@ WORKDIR /app
 ENV NODE_ENV=production
 ENV PORT=3000
 ENV HOST=0.0.0.0
-
+ENV TRUST_PROXY=1
 # 3) Copy build output and prod deps
 COPY --from=builder /app/build ./build
 COPY --from=builder /app/node_modules ./node_modules
