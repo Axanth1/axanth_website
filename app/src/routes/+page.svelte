@@ -43,28 +43,33 @@
 </section>
 
 <section id="difference">
-    <div class="container difference-grid">
-        <div class="difference-content">
-            <h2>Why We're <span>Different</span></h2>
-            <ul>
-                <li>
-                    <strong>Radical Execution.</strong> We have a bias for action and a get-it-done mentality. We cut through the noise to deliver tangible results, on time.
-                </li>
-                <li>
-                    <strong>Top-Notch Craftsmanship.</strong> We obsess over the details. Clean code, pixel-perfect design, and flawless performance are not optional—they are our standard.
-                </li>
-                <li>
-                    <strong>Strategic Partnership.</strong> We integrate with your team to understand your goals deeply. We're not just vendors; we're your dedicated partners in digital success.
-                </li>
-            </ul>
-             <a href="/contact" class="btn">Let's Talk Strategy</a>
+    <div class="container">
+        <div class="section-header">
+            <h2>The Axanth <span>Advantage</span></h2>
+            <p>We're built on a foundation of principles that guarantee superior outcomes. This is what sets us apart.</p>
         </div>
-        <div class="difference-image">
-            <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=2070&auto=format&fit=crop" alt="A team of developers collaborating on a project">
+
+        <div class="features-grid">
+            <article class="feature-card">
+                <div class="feature-icon">⚡️</div>
+                <h3>Radical Execution</h3>
+                <p>We have a bias for action and a get-it-done mentality. We cut through the noise to deliver tangible results, on time, every time.</p>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon">💎</div>
+                <h3>Top-Notch Craftsmanship</h3>
+                <p>We obsess over the details. Clean code, pixel-perfect design, and flawless performance are not optional—they are our standard.</p>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon">🤝</div>
+                <h3>Strategic Partnership</h3>
+                <p>We integrate with your team to understand your goals deeply. We aren't just vendors; we're your dedicated partners in digital success.</p>
+            </article>
         </div>
     </div>
 </section>
-
 <section id="contact">
     <div class="container">
         <div class="text-center">
@@ -92,6 +97,7 @@
     }
 
     .container {
+        /* Restored original padding */
         padding: 4rem 0;
     }
 
@@ -195,41 +201,56 @@
         color: var(--text-secondary);
     }
 
-    /* Difference Section */
-    .difference-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
-        gap: 3rem;
+    /* ===== "Why We're Different" Section (NEW STYLES) ===== */
+    #difference .container {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    
+    .section-header {
+        text-align: center;
+        max-width: 700px;
+        margin: 0 auto 4rem auto;
     }
 
-    .difference-content ul {
-        list-style: none;
-        padding-left: 0;
-        margin-top: 2rem;
+    .features-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
     }
-    
-    .difference-content li {
-        font-size: 1.1rem;
-        margin-bottom: 1.5rem;
-        display: flex;
-        align-items: flex-start;
-    }
-    
-    .difference-content li::before {
-        content: '✓';
-        color: var(--accent-color);
-        font-weight: 700;
-        margin-right: 1rem;
-        font-size: 1.5rem;
-        line-height: 1.2;
-    }
-    
-    .difference-image img {
-        max-width: 100%;
-        height: auto;
+
+    .feature-card {
+        background-color: var(--secondary-bg);
+        border: 1px solid var(--border-color);
         border-radius: 8px;
+        padding: 2.5rem 2rem;
+        text-align: center;
+        transition: transform 0.3s ease, background-color 0.3s ease;
     }
+
+    .feature-card:hover {
+        transform: translateY(-10px);
+        background-color: #2a2d3a;
+    }
+
+    .feature-icon {
+        font-size: 3rem;
+        line-height: 1;
+        margin-bottom: 1.5rem;
+    }
+    
+    .feature-card h3 {
+        font-size: 1.4rem;
+        color: #ffffff;
+        margin-bottom: 1rem;
+    }
+
+    .feature-card p {
+        color: var(--text-secondary);
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+    /* ===== End of New Styles ===== */
 
     /* Contact Section */
     #contact {
@@ -282,15 +303,6 @@
         .hero-buttons a {
             width: 100%;
             max-width: 300px;
-        }
-
-        .difference-grid {
-            grid-template-columns: 1fr;
-            text-align: center;
-        }
-
-        .difference-content li {
-            text-align: left;
         }
     }
 </style>
