@@ -1,0 +1,77 @@
+# .github/workflows/deploy.yml
+
+name: Build, Push, and Deploy
+
+on:
+  push:
+    branches:
+      - main
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Checkout your application's source code
+      - name: Checkout App Repo
+        uses: actions/checkout@v4
+
+      # 2. Set up Docker Buildx for building images
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+
+      # 3. Log in to your Docker Hub account
+      - name: Login to Docker Hub
+        uses: docker/login-action@v2
+        with:
+          username: ${{ secrets.DOCKERHUB_USER }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      # 4. Build and push the image with a unique tag (the Git SHA) and :latest
+      - name: Build and Push Docker Image
+        uses: docker/build-push-action@v4
+        with:
+          context: .
+          file: ./Dockerfile
+          push: true
+          tags: |
+            docker.io/${{ secrets.DOCKERHUB_USER }}/axanth-website:latest
+            docker.io/${{ secrets.DOCKERHUB_USER }}/axanth-website:${{ github.sha }}
+
+      # 5. Clone your separate Kubernetes config repository
+      - name: Clone K8s Config Repo
+        uses: actions/checkout@v4
+        with:
+          repository: axanth1/workflow-k-configs
+          token: ${{ secrets.GIT_PAT }}
+          path: workflow-k8s-configs
+
+      # 6. Update the deployment manifest with the new unique image tag
+      - name: Update Kubernetes Manifest
+        run: |
+          # Install yq, a safe YAML processor
+          sudo wget https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64 -O /usr/bin/yq && sudo chmod +x /usr/bin/yq
+          
+          # Define variables for the update
+          export MANIFEST_PATH="workflow-k8s-configs/2-apps/axanth_website/deployment.yaml"
+          export NEW_IMAGE_TAG="${{ github.sha }}"
+          export IMAGE_NAME="docker.io/${{ secrets.DOCKERHUB_USER }}/axanth-website"
+          
+          # Use yq to safely edit only the image field
+          yq e '.spec.template.spec.containers[0].image = env(IMAGE_NAME) + ":" + env(NEW_IMAGE_TAG)' -i $MANIFEST_PATH
+
+      # 7. Commit and push the updated manifest back to the config repository
+      - name: Commit and Push Changes
+        run: |
+          cd workflow-k8s-configs
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          git add .
+          # Only commit and push if there are actual changes
+          if ! git diff --staged --quiet; then
+            git commit -m "Update image for axanth-website to ${{ github.sha }}"
+            git push
+          else
+            echo "No changes to commit."
+          fi
