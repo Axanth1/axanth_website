@@ -1,8 +1,18 @@
 <svelte:head>
     <title>Axanth | High-End Web & App Development</title>
-    <meta name="description" content="Axanth crafts bespoke, high-performance websites and applications. We don't just build software; we engineer digital experiences that deliver results and set you apart.">
-    <meta name="keywords" content="web development, app development, software company, custom websites, high-end software, UI/UX design, digital solutions">
-    <meta name="author" content="Axanth Digital">
+    <meta name="description" content="Axanth crafts bespoke, high-performance websites and applications. We are digital architects building top-notch software that delivers results and sets you apart.">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.axanth.gr/">
+    <meta property="og:title" content="Axanth | High-End Web & App Development">
+    <meta property="og:description" content="We are digital architects building top-notch software that delivers results and sets you apart.">
+    <meta property="og:image" content="https://www.axanth.gr/images/social-home.jpg">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.axanth.gr/">
+    <meta property="twitter:title" content="Axanth | High-End Web & App Development">
+    <meta property="twitter:description" content="We are digital architects building top-notch software that delivers results and sets you apart.">
+    <meta property="twitter:image" content="https://www.axanth.gr/images/social-home.jpg">
 </svelte:head>
 
 <section id="hero">

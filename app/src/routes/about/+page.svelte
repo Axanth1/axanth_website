@@ -1,6 +1,18 @@
 <svelte:head>
-    <title>About Axanth | Our Philosophy</title>
-    <meta name="description" content="Learn about the Axanth team, our mission, and the philosophy that drives our high-end development process.">
+    <title>Contact Axanth | Start Your Project</title>
+    <meta name="description" content="Ready to build something exceptional? Get in touch with the Axanth team to discuss your project. We're ready to turn your vision into reality.">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.axanth.gr/contact">
+    <meta property="og:title" content="Contact Axanth | Start Your Project">
+    <meta property="og:description" content="Ready to build something exceptional? Get in touch with the Axanth team.">
+    <meta property="og:image" content="https://www.axanth.gr/images/social-contact.jpg">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.axanth.gr/contact">
+    <meta property="twitter:title" content="Contact Axanth | Start Your Project">
+    <meta property="twitter:description" content="Ready to build something exceptional? Get in touch with the Axanth team.">
+    <meta property="twitter:image" content="https://www.axanth.gr/images/social-contact.jpg">
 </svelte:head>
 
 <div class="container">

@@ -1,6 +1,18 @@
 <svelte:head>
-    <title>Portfolio | Our Work at Axanth</title>
-    <meta name="description" content="Browse a selection of our high-end web development and application design projects.">
+    <title>Our Work | Axanth Portfolio</title>
+    <meta name="description" content="Browse a selection of our high-end web development and application design projects. See the proof of our commitment to craftsmanship and results.">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.axanth.gr/portfolio">
+    <meta property="og:title" content="Our Work | Axanth Portfolio">
+    <meta property="og:description" content="See the proof of our commitment to craftsmanship and results.">
+    <meta property="og:image" content="https://www.axanth.gr/images/social-portfolio.jpg">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.axanth.gr/portfolio">
+    <meta property="twitter:title" content="Our Work | Axanth Portfolio">
+    <meta property="twitter:description" content="See the proof of our commitment to craftsmanship and results.">
+    <meta property="twitter:image" content="https://www.axanth.gr/images/social-portfolio.jpg">
 </svelte:head>
 
 <div class="container">

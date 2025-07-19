@@ -1,6 +1,18 @@
 <svelte:head>
-    <title>Services | Axanth Digital Solutions</title>
-    <meta name="description" content="Explore our core services: Bespoke Web Development, Custom Application Design, and Performance-driven SEO.">
+    <title>Our Services | Custom Web & Application Development</title>
+    <meta name="description" content="Explore our core services: Bespoke Web Development, Custom Application Design, and Performance-driven SEO solutions. We build for maximum impact.">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.axanth.gr/services">
+    <meta property="og:title" content="Our Services | Custom Web & Application Development">
+    <meta property="og:description" content="We engineer exceptional digital experiences. Discover our high-end development services.">
+    <meta property="og:image" content="https://www.axanth.gr/images/social-services.jpg">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.axanth.gr/services">
+    <meta property="twitter:title" content="Our Services | Custom Web & Application Development">
+    <meta property="twitter:description" content="We engineer exceptional digital experiences. Discover our high-end development services.">
+    <meta property="twitter:image" content="https://www.axanth.gr/images/social-services.jpg">
 </svelte:head>
 
 <div class="container">
