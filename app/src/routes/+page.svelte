@@ -19,11 +19,11 @@
     <div class="hero-container">
         <div class="hero-content">
             <p class="subtitle">// BEYOND THE CODE</p>
-            <h1>We Build High-End Digital Experiences.</h1>
-            <p>We're not just another software company. We are architects of exceptional, high-performance websites and applications that get things done, push boundaries, and deliver undeniable results.</p>
+            <h1>Digital εμπειρίες που συναρπάζουν</h1>
+            <p>Δημιουργούμε κορυφαίες ιστοσελίδες και εφαρμογές που ξεχωρίζουν, αποδίδουν και αντέχουν στο χρόνο. Με ακρίβεια και τεχνογνωσία, μετατρέπουμε ιδέες σε ψηφιακή υπεροχή.</p>
             <div class="hero-buttons">
-                <a href="/contact" class="btn">Start a Project</a>
-                <a href="/about" class="btn btn-outline">Learn More</a>
+                <a href="/contact" class="btn">Ξεκίνα σήμερα</a>
+                <a href="/about" class="btn btn-outline">Γνώρισε μας</a>
             </div>
         </div>
     </div>
@@ -31,22 +31,22 @@
 
 <section id="services">
     <div class="container">
-        <h2 class="text-center">Our Core <span>Services</span></h2>
+        <h2 class="text-center">Οι βασικές μας <span>Υπηρεσίες</span></h2>
         <div class="services-grid">
             <article class="service-card">
                 <div class="icon">🖥️</div>
-                <h3>Bespoke Web Development</h3>
-                <p>From sleek corporate sites to complex e-commerce platforms, we build fast, secure, and scalable websites that are tailored to your exact brand vision and business objectives.</p>
+                <h3>Κατασκευή Bespoke Ιστοσελίδων</h3>
+                <p>Από κομψές εταιρικές παρουσιάσεις έως απαιτητικές πλατφόρμες e-commerce, δημιουργούμε ταχύτατες, απόλυτα ασφαλείς και επεκτάσιμες ιστοσελίδες, σχεδιασμένες αποκλειστικά για να υπηρετούν το δικό σας brand και τους επιχειρηματικούς σας στόχους.</p>
             </article>
             <article class="service-card">
                 <div class="icon">📱</div>
-                <h3>Custom Application Design</h3>
-                <p>We engineer intuitive and powerful web and mobile applications. Our focus is on seamless user experience (UI/UX) and robust functionality that solves real-world problems.</p>
+                <h3>Σχεδιασμός Εξειδικευμένων Εφαρμογών</h3>
+                <p>Σχεδιάζουμε και αναπτύσσουμε διαισθητικές και ισχυρές εφαρμογές για web και mobile. Η προσέγγισή μας εστιάζει στην άψογη εμπειρία χρήστη (UI/UX) και σε μια στιβαρή λειτουργικότητα που δίνει λύσεις σε πραγματικά προβλήματα.</p>
             </article>
             <article class="service-card">
                 <div class="icon">🚀</div>
-                <h3>Performance & SEO</h3>
-                <p>A great product is useless if it can't be found. We build for performance from the ground up, ensuring top-tier speed, reliability, and search engine visibility.</p>
+                <h3>Βελτιστοποίηση Απόδοσης & SEO</h3>
+                <p>Τι αξία έχει ένα κορυφαίο προϊόν, αν κανείς δεν μπορεί να το ανακαλύψει; Για εμάς, η απόδοση δεν είναι κάτι που προστίθεται στο τέλος. Την ενσωματώνουμε στον πυρήνα κάθε project, εξασφαλίζοντας κορυφαία ταχύτητα, απόλυτη αξιοπιστία και μέγιστη ορατότητα στις μηχανές αναζήτησης.</p>
             </article>
         </div>
     </div>
@@ -55,27 +55,27 @@
 <section id="difference">
     <div class="container">
         <div class="section-header">
-            <h2>The Axanth <span>Advantage</span></h2>
-            <p>We're built on a foundation of principles that guarantee superior outcomes. This is what sets us apart.</p>
+            <h2>Το <span>Πλεονεκτήμα</span> της Axanth</h2>
+            <p>Η φιλοσοφία μας βασίζεται σε θεμελιώδεις αρχές που εγγυώνται κορυφαία αποτελέσματα. Αυτή είναι η δύναμή μας, αυτό είναι που μας κάνει να ξεχωρίζουμε.</p>
         </div>
 
         <div class="features-grid">
             <article class="feature-card">
                 <div class="feature-icon">⚡️</div>
-                <h3>Radical Execution</h3>
-                <p>We have a bias for action and a get-it-done mentality. We cut through the noise to deliver tangible results, on time, every time.</p>
+                <h3>Άμεση Δράση. Χειροπιαστά Αποτελέσματα.</h3>
+                <p>Η φιλοσοφία μας είναι απλή: πιάνουμε δουλειά. Διασπάμε την πολυπλοκότητα και παραδίδουμε αυτό που έχει σημασία, τηρώντας απόλυτα τις προθεσμίες. Κάθε φορά.</p>
             </article>
 
             <article class="feature-card">
                 <div class="feature-icon">💎</div>
-                <h3>Top-Notch Craftsmanship</h3>
-                <p>We obsess over the details. Clean code, pixel-perfect design, and flawless performance are not optional—they are our standard.</p>
+                <h3>Εμμονή στην Τελειότητα</h3>
+                <p>Έχουμε εμμονή με την κάθε λεπτομέρεια. Για εμάς, ο καθαρός κώδικας, το pixel-perfect design και η αψεγάδιαστη απόδοση δεν είναι απλώς επιλογές—είναι το αυτονόητο.</p>
             </article>
 
             <article class="feature-card">
                 <div class="feature-icon">🤝</div>
-                <h3>Strategic Partnership</h3>
-                <p>We integrate with your team to understand your goals deeply. We aren't just vendors; we're your dedicated partners in digital success.</p>
+                <h3>Στρατηγική Συνεργασία</h3>
+                <p>Ενσωματωνόμαστε στην ομάδα σας για να κατανοήσουμε σε βάθος τους επιχειρηματικούς σας στόχους. Δεν είμαστε απλοί προμηθευτές, αλλά οι αφοσιωμένοι συνεργάτες σας στην πορεία προς την ψηφιακή επιτυχία.</p>
             </article>
         </div>
     </div>
@@ -83,14 +83,14 @@
 <section id="contact">
     <div class="container">
         <div class="text-center">
-            <h2>Ready to Build Something <span>Exceptional?</span></h2>
-            <p>Tell us about your project. We're ready to listen and turn your vision into reality.</p>
+            <h2>Έτοιμοι να Δημιουργήσουμε κάτι  <span>Εξαιρετικό;</span></h2>
+            <p>Μιλήστε μας για το project σας. Είμαστε έτοιμοι να ακούσουμε προσεκτικά και να μετατρέψουμε το όραμά σας σε πραγματικότητα.</p>
         </div>
         <form action="#" method="POST" class="contact-form">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Tell us about your project..." required></textarea>
-            <a href="/contact" class="btn">Continue on Contact Page</a>
+            <input type="text" name="name" placeholder="Το όνομας σας" required>
+            <input type="email" name="email" placeholder="Το email σας" required>
+            <textarea name="message" placeholder="Πείτε μας για το project σας..." required></textarea>
+            <a href="/contact" class="btn">Επικοινωνήστε Τώρα</a>
         </form>
     </div>
 </section>

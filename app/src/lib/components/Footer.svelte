@@ -2,12 +2,12 @@
     <div class="container">
         <div class="footer-content">
             <a href="/" class="logo">Axanth<span>.</span></a>
-            <p>&copy; {new Date().getFullYear()} Axanth Digital. Engineering the Future.</p>
+            <p>&copy; {new Date().getFullYear()} Axanth Digital. Σχεδιάζοντας το Μέλλον.</p>
             <div class="footer-links">
-                <a href="/about">About</a>
-                <a href="/services">Services</a>
-                <a href="/portfolio">Portfolio</a>
-                <a href="/contact">Contact</a>
+                <a href="/about">Σχετικά με εμάς</a>
+                <a href="/services">Υπηρεσίες</a>
+                <a href="/portfolio">Τα Έργα μας</a>
+                <a href="/contact">Επικοινωνία</a>
             </div>
         </div>
     </div>

@@ -24,10 +24,10 @@
         
         <nav class="desktop-nav">
             <ul class="nav-links">
-                <li><a href="/services" class:active={$page.url.pathname === '/services'}>Services</a></li>
-                <li><a href="/portfolio" class:active={$page.url.pathname === '/portfolio'}>Portfolio</a></li>
-                <li><a href="/about" class:active={$page.url.pathname === '/about'}>About</a></li>
-                <li><a href="/contact" class="btn btn-nav">Contact Us</a></li>
+                <li><a href="/services" class:active={$page.url.pathname === '/services'}>Υπηρεσίες</a></li>
+                <li><a href="/portfolio" class:active={$page.url.pathname.startsWith('/portfolio')}>Τα Έργα μας</a></li>
+                <li><a href="/about" class:active={$page.url.pathname === '/about'}>Σχετικά με εμάς</a></li>
+                <li><a href="/contact" class="btn btn-nav">Επικοινωνία</a></li>
             </ul>
         </nav>
 
@@ -42,10 +42,10 @@
 <div class="mobile-nav-overlay" class:open={isMenuOpen}>
     <nav>
         <ul class="mobile-nav-links">
-            <li><a href="/services" on:click={closeMenu}>Services</a></li>
-            <li><a href="/portfolio" on:click={closeMenu}>Portfolio</a></li>
-            <li><a href="/about" on:click={closeMenu}>About</a></li>
-            <li><a href="/contact" on:click={closeMenu}>Contact</a></li>
+            <li><a href="/services" on:click={closeMenu}>Υπηρεσίες</a></li>
+            <li><a href="/portfolio" on:click={closeMenu}>Τα Έργα μας</a></li>
+            <li><a href="/about" on:click={closeMenu}>Σχετικά με εμάς</a></li>
+            <li><a href="/contact" on:click={closeMenu}>Επικοινωνία</a></li>
         </ul>
     </nav>
 </div>
@@ -104,9 +104,14 @@
     .btn-nav {
         padding: 8px 20px;
         border-bottom: none !important;
+        transition: background-color 0.3s ease, border-color 0.3s ease;
     }
+    /* === THIS IS THE FIX === */
     .btn-nav:hover {
         color: white !important;
+        background-color: var(--accent-hover);
+        border-color: var(--accent-hover);
+        transform: none; /* Override the jump effect from the global .btn class */
     }
     
     /* --- Burger Button --- */
