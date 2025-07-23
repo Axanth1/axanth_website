@@ -19,11 +19,11 @@
     <div class="hero-container">
         <div class="hero-content">
             <p class="subtitle">// BEYOND THE CODE</p>
-            <h1>Digital εμπειρίες που συναρπάζουν</h1>
-            <p>Δημιουργούμε κορυφαίες ιστοσελίδες και εφαρμογές που ξεχωρίζουν, αποδίδουν και αντέχουν στο χρόνο. Με ακρίβεια και τεχνογνωσία, μετατρέπουμε ιδέες σε ψηφιακή υπεροχή.</p>
+            <h1>Κατασκευάζουμε Ψηφιακές Εμπειρίες που Συναρπάζουν.</h1>
+            <p>Δεν είμαστε απλώς προγραμματιστές. Είμαστε αρχιτέκτονες ψηφιακών λύσεων. Κατασκευάζουμε ιστοσελίδες και εφαρμογές υψηλών προδιαγραφών που ξεχωρίζουν, αποδίδουν και φέρνουν πραγματικά αποτελέσματα.</p>
             <div class="hero-buttons">
-                <a href="/contact" class="btn">Ξεκίνα σήμερα</a>
-                <a href="/about" class="btn btn-outline">Γνώρισε μας</a>
+                <a href="/contact" class="btn">Έναρξη Project</a>
+                <a href="/about" class="btn btn-outline">Η Φιλοσοφία μας</a>
             </div>
         </div>
     </div>
@@ -31,12 +31,12 @@
 
 <section id="services">
     <div class="container">
-        <h2 class="text-center">Οι βασικές μας <span>Υπηρεσίες</span></h2>
+        <h2 class="text-center">Οι Υπηρεσίες <span>μας</span></h2>
         <div class="services-grid">
             <article class="service-card">
                 <div class="icon">🖥️</div>
-                <h3>Κατασκευή Bespoke Ιστοσελίδων</h3>
-                <p>Από κομψές εταιρικές παρουσιάσεις έως απαιτητικές πλατφόρμες e-commerce, δημιουργούμε ταχύτατες, απόλυτα ασφαλείς και επεκτάσιμες ιστοσελίδες, σχεδιασμένες αποκλειστικά για να υπηρετούν το δικό σας brand και τους επιχειρηματικούς σας στόχους.</p>
+                <h3>Κατασκευή Εξατομικευμένων Ιστοσελίδων</h3>
+                <p>Από κομψές εταιρικές παρουσιάσεις έως απαιτητικές πλατφόρμες e-commerce, δημιουργούμε ταχύτατες, απόλυτα ασφαλείς και επεκτάσιμες ιστοσελίδες, σχεδιασμένες αποκλειστικά για να υπηρετούν το δικό σας brand.</p>
             </article>
             <article class="service-card">
                 <div class="icon">📱</div>
@@ -46,7 +46,7 @@
             <article class="service-card">
                 <div class="icon">🚀</div>
                 <h3>Βελτιστοποίηση Απόδοσης & SEO</h3>
-                <p>Τι αξία έχει ένα κορυφαίο προϊόν, αν κανείς δεν μπορεί να το ανακαλύψει; Για εμάς, η απόδοση δεν είναι κάτι που προστίθεται στο τέλος. Την ενσωματώνουμε στον πυρήνα κάθε project, εξασφαλίζοντας κορυφαία ταχύτητα, απόλυτη αξιοπιστία και μέγιστη ορατότητα στις μηχανές αναζήτησης.</p>
+                <p>Τι αξία έχει ένα κορυφαίο προϊόν, αν κανείς δεν μπορεί να το ανακαλύψει; Χτίζουμε κάθε project με γνώμονα την απόδοση από τα θεμέλια, εξασφαλίζοντας κορυφαία ταχύτητα, αξιοπιστία και μέγιστη ορατότητα στις μηχανές αναζήτησης.</p>
             </article>
         </div>
     </div>
@@ -55,8 +55,8 @@
 <section id="difference">
     <div class="container">
         <div class="section-header">
-            <h2>Το <span>Πλεονεκτήμα</span> της Axanth</h2>
-            <p>Η φιλοσοφία μας βασίζεται σε θεμελιώδεις αρχές που εγγυώνται κορυφαία αποτελέσματα. Αυτή είναι η δύναμή μας, αυτό είναι που μας κάνει να ξεχωρίζουμε.</p>
+            <h2>Το Πλεονέκτημα της <span>Axanth</span></h2>
+            <p>Η προσέγγισή μας βασίζεται σε τρεις θεμελιώδεις αρχές που εγγυώνται ένα κορυφαίο τελικό προϊόν. Αυτό είναι που μας κάνει να ξεχωρίζουμε.</p>
         </div>
 
         <div class="features-grid">
@@ -80,18 +80,14 @@
         </div>
     </div>
 </section>
+
 <section id="contact">
-    <div class="container">
-        <div class="text-center">
-            <h2>Έτοιμοι να Δημιουργήσουμε κάτι  <span>Εξαιρετικό;</span></h2>
-            <p>Μιλήστε μας για το project σας. Είμαστε έτοιμοι να ακούσουμε προσεκτικά και να μετατρέψουμε το όραμά σας σε πραγματικότητα.</p>
+    <div class="container text-center">
+        <h2>Έτοιμοι να Δημιουργήσουμε κάτι <span>Εξαιρετικό;</span></h2>
+        <p>Μιλήστε μας για το project σας. Είμαστε έτοιμοι να ακούσουμε προσεκτικά και να μετατρέψουμε το όραμά σας σε πραγματικότητα.</p>
+        <div class="cta-button">
+             <a href="/contact" class="btn">Επικοινωνήστε Τώρα</a>
         </div>
-        <form action="#" method="POST" class="contact-form">
-            <input type="text" name="name" placeholder="Το όνομας σας" required>
-            <input type="email" name="email" placeholder="Το email σας" required>
-            <textarea name="message" placeholder="Πείτε μας για το project σας..." required></textarea>
-            <a href="/contact" class="btn">Επικοινωνήστε Τώρα</a>
-        </form>
     </div>
 </section>
 
@@ -107,7 +103,6 @@
     }
 
     .container {
-        /* Restored original padding */
         padding: 4rem 0;
     }
 
@@ -136,6 +131,8 @@
     
     .hero-content {
         max-width: 700px;
+        position: relative; 
+        z-index: 1;
     }
     
     .hero-content .subtitle {
@@ -164,13 +161,16 @@
     .btn-outline {
         background-color: transparent;
         color: var(--accent-color);
+        border: 2px solid var(--accent-color); 
     }
 
     .btn-outline:hover {
         background-color: var(--accent-color);
         color: #ffffff;
+        transform: translateY(-5px); 
+        box-shadow: 0 10px 20px rgba(0, 170, 255, 0.2);
     }
-
+    
     /* Services Section */
     #services {
         background-color: var(--secondary-bg);
@@ -187,12 +187,13 @@
         padding: 2rem;
         border-radius: 8px;
         border: 1px solid var(--border-color);
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
     }
 
     .service-card:hover {
         transform: translateY(-10px);
-        box-shadow: 0 10px 20px rgba(0, 170, 255, 0.1);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        border-color: var(--accent-secondary);
     }
     
     .service-card .icon {
@@ -211,7 +212,7 @@
         color: var(--text-secondary);
     }
 
-    /* ===== "Why We're Different" Section (NEW STYLES) ===== */
+    /* "Why We're Different" Section */
     #difference .container {
         padding-top: 5rem;
         padding-bottom: 5rem;
@@ -260,36 +261,23 @@
         font-size: 1rem;
         line-height: 1.6;
     }
-    /* ===== End of New Styles ===== */
-
-    /* Contact Section */
+    
+    /* CTA Section (formerly Contact) */
     #contact {
         background-color: var(--secondary-bg);
     }
-    
-    .contact-form {
-        max-width: 700px;
-        margin: 2rem auto 0;
-        display: flex;
-        flex-direction: column;
-        gap: 1.5rem;
-    }
-    
-    .contact-form input,
-    .contact-form textarea {
-        width: 100%;
-        padding: 1rem;
-        background-color: var(--primary-bg);
-        border: 1px solid var(--border-color);
-        border-radius: 5px;
-        color: var(--text-primary);
-        font-family: 'Poppins', sans-serif;
-        font-size: 1rem;
+
+    #contact h2 {
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .contact-form .btn {
-        text-align: center;
+    .cta-button {
+        margin-top: 2rem;
     }
+    
+    /* REMOVED: .contact-form styles are no longer needed here */
 
     /* Responsive Design */
     @media (max-width: 768px) {

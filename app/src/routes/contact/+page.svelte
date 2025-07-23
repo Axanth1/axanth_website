@@ -8,13 +8,10 @@
 
 <div class="container">
     <div class="contact-grid">
-        <!-- ============================================ -->
-        <!--               Left Column: Info              -->
-        <!-- ============================================ -->
         <div class="contact-info">
             <h1>Ας Χτίσουμε το <span>Μέλλον, Μαζί.</span></h1>
             <p class="subtitle">
-                Αυτή τη στιγμή δεχόμαστε νέα projects. Συμπληρώστε την παρακάτω φόρμα και ο lead strategist μας θα επικοινωνήσει μαζί σας εντός 24 ωρών.
+                Αυτή τη στιγμή δεχόμαστε νέα projects. Συμπληρώστε την παρακάτω φόρμα με τις πρώτες πληροφορίες και ο lead strategist μας θα επικοινωνήσει μαζί σας εντός 24 ωρών.
             </p>
 
             <ul class="info-list">
@@ -39,16 +36,56 @@
             </ul>
         </div>
 
-        <!-- ============================================ -->
-        <!--              Right Column: Form              -->
-        <!-- ============================================ -->
         <form method="POST" action="?" class="contact-form">
             <div class="form-group">
-                <input type="text" id="name" name="name" placeholder="Το Όνομά σας" required />
-                <input type="email" id="email" name="email" placeholder="Το Email σας" required />
+                <div class="form-field">
+                    <label for="name">Όνομα</label>
+                    <input type="text" id="name" name="name" required />
+                </div>
+                <div class="form-field">
+                     <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required />
+                </div>
             </div>
-            <input type="text" id="subject" name="subject" placeholder="Θέμα Project" required />
-            <textarea id="message" name="message" placeholder="Περιγράψτε μας το όραμά σας, τους στόχους και το χρονοδιάγραμμα..." required></textarea>
+
+            <div class="form-group">
+                <div class="form-field">
+                    <label for="project-type">Τύπος Project</label>
+                    <select id="project-type" name="project-type" required>
+                        <option value="" disabled selected>Επιλέξτε τύπο...</option>
+                        <option value="corporate">Εταιρική Ιστοσελίδα</option>
+                        <option value="ecommerce">E-commerce / E-shop</option>
+                        <option value="webapp">Web Εφαρμογή (Application)</option>
+                        <option value="other">Άλλο</option>
+                    </select>
+                </div>
+                <div class="form-field">
+                    <label for="budget">Εκτιμώμενο Budget</label>
+                    <select id="budget" name="budget" required>
+                        <option value="" disabled selected>Επιλέξτε budget...</option>
+                        <option value="5k-10k">€5.000 - €10.000</option>
+                        <option value="10k-20k">€10.000 - €20.000</option>
+                        <option value=">20k">&gt; €20.000</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="form-field">
+                <label for="timeline">Επιθυμητό Χρονοδιάγραμμα</label>
+                <select id="timeline" name="timeline" required>
+                    <option value="" disabled selected>Επιλέξτε χρονοδιάγραμμα...</option>
+                    <option value="1-2 months">1-2 Μήνες</option>
+                    <option value="2-4 months">2-4 Μήνες</option>
+                    <option value="4+ months">4+ Μήνες</option>
+                    <option value="flexible">Ευέλικτο</option>
+                </select>
+            </div>
+
+            <div class="form-field">
+                <label for="message">Πείτε μας μερικές λεπτομέρειες</label>
+                <textarea id="message" name="message" placeholder="Ποιος είναι ο κύριος στόχος του project; Υπάρχουν ιστοσελίδες που σας αρέσουν;" required></textarea>
+            </div>
+
             <button type="submit" class="btn">Αποστολή Αιτήματος</button>
         </form>
     </div>
@@ -126,8 +163,22 @@
         display: flex;
         gap: 1.5rem;
     }
+
+    /* NEW: Styling for form fields and labels */
+    .form-field {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .form-field label {
+        margin-bottom: 0.5rem;
+        font-size: 0.9rem;
+        color: var(--text-secondary);
+    }
+
     .contact-form input,
-    .contact-form textarea {
+    .contact-form textarea,
+    .contact-form select {
         width: 100%;
         padding: 1rem;
         background-color: var(--primary-bg);
@@ -139,16 +190,33 @@
         transition: border-color 0.3s ease;
     }
     .contact-form input:focus,
-    .contact-form textarea:focus {
+    .contact-form textarea:focus,
+    .contact-form select:focus {
         outline: none;
         border-color: var(--accent-color);
     }
     .contact-form textarea {
         resize: vertical;
-        min-height: 150px;
+        min-height: 120px;
     }
     .contact-form .btn {
         align-self: flex-start;
+        margin-top: 1rem;
+    }
+
+    /* NEW: Custom styling for select dropdown arrow */
+    .contact-form select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='2' stroke='%23a0a0a0'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M19.5 8.25l-7.5 7.5-7.5-7.5' /%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: right 1rem center;
+        background-size: 1em;
+        padding-right: 2.5rem; /* Make space for the arrow */
+    }
+    .contact-form select:required:invalid {
+        color: var(--text-secondary);
     }
 
     @media (max-width: 992px) {
@@ -160,12 +228,13 @@
             text-align: center;
         }
         .info-list {
-            align-items: center;
+            display: none; /* Hide detailed info on mobile for a cleaner look */
         }
     }
      @media (max-width: 600px) {
         .form-group {
             flex-direction: column;
+            gap: 1.5rem; /* Ensure consistent gap on mobile stack */
         }
         .contact-form {
             padding: 1.5rem;
