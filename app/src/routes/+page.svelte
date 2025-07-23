@@ -1,17 +1,17 @@
 <svelte:head>
-    <title>Axanth | High-End Web & App Development</title>
-    <meta name="description" content="Axanth crafts bespoke, high-performance websites and applications. We are digital architects building top-notch software that delivers results and sets you apart.">
+    <title>Axanth | Premium Κατασκευή Ιστοσελίδων & Εφαρμογών</title>
+    <meta name="description" content="Στην Axanth, δεν φτιάχνουμε απλώς websites. Είμαστε αρχιτέκτονες ψηφιακών λύσεων, δημιουργώντας εξατομικευμένες εμπειρίες υψηλών επιδόσεων που αποδίδουν και σας κάνουν να ξεχωρίζετε.">
 
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.axanth.gr/">
-    <meta property="og:title" content="Axanth | High-End Web & App Development">
-    <meta property="og:description" content="We are digital architects building top-notch software that delivers results and sets you apart.">
+    <meta property="og:title" content="Axanth | Premium Κατασκευή Ιστοσελίδων & Εφαρμογών">
+    <meta property="og:description" content="Είμαστε αρχιτέκτονες ψηφιακών λύσεων, δημιουργώντας εμπειρίες υψηλών επιδόσεων που αποδίδουν.">
     <meta property="og:image" content="https://www.axanth.gr/images/social-home.jpg">
 
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://www.axanth.gr/">
-    <meta property="twitter:title" content="Axanth | High-End Web & App Development">
-    <meta property="twitter:description" content="We are digital architects building top-notch software that delivers results and sets you apart.">
+    <meta property="twitter:title" content="Axanth | Premium Κατασκευή Ιστοσελίδων & Εφαρμογών">
+    <meta property="twitter:description" content="Είμαστε αρχιτέκτονες ψηφιακών λύσεων, δημιουργώντας εμπειρίες υψηλών επιδόσεων που αποδίδουν.">
     <meta property="twitter:image" content="https://www.axanth.gr/images/social-home.jpg">
 </svelte:head>
 
