@@ -6,6 +6,9 @@ WORKDIR /app
 COPY app/package*.json ./
 RUN npm ci
 
+ARG RESEND_API_KEY
+ENV RESEND_API_KEY=${RESEND_API_KEY}
+
 # 2) Copy source & build
 COPY app/ ./
 RUN npm run build

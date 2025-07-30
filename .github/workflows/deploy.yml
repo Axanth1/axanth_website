@@ -38,6 +38,8 @@ jobs:
           tags: |
             docker.io/${{ secrets.DOCKERHUB_USER }}/axanth-website:latest
             docker.io/${{ secrets.DOCKERHUB_USER }}/axanth-website:${{ github.sha }}
+          build-args: |
+            RESEND_API_KEY=${{ secrets.RESEND_API_KEY }}
 
       # 5. Clone your separate Kubernetes config repository
       - name: Clone K8s Config Repo
