@@ -13,7 +13,7 @@
 <div class="container">
     <div class="contact-grid">
         <div class="contact-info">
-            <h1>Ας Χτίσουμε το <span>Μέλλον, Μαζί.</span></h1>
+            <h1>Ας Χτίσουμε το ψηφιακό σας <span>Μέλλον, Μαζί.</span></h1>
             <p class="subtitle">
                 Αυτή τη στιγμή δεχόμαστε νέα projects. Συμπληρώστε την παρακάτω φόρμα με τις πρώτες πληροφορίες και ο lead strategist μας θα επικοινωνήσει μαζί σας εντός 24 ωρών.
             </p>

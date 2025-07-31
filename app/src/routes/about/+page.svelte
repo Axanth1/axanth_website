@@ -1,6 +1,6 @@
 <svelte:head>
     <title>Σχετικά με την Axanth | Η Φιλοσοφία μας</title>
-    <meta name="description" content="Μάθετε για την ομάδα της Axanth, την αποστολή μας και τη φιλοσοφία 'Πέρα από τον Κώδικα' που χαρακτηρίζει την προσέγγισή μας.">
+    <meta name="description" content="Μάθετε για την ομάδα της Axanth, την αποστολή μας και τη φιλοσοφία 'Beyond the Code' που χαρακτηρίζει την προσέγγισή μας.">
 
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.axanth.gr/about">
@@ -25,8 +25,8 @@
 <section class="philosophy-section">
     <div class="container">
         <div class="section-intro">
-            <h2>Η Φιλοσοφία μας: <span>Πέρα από τον Κώδικα</span></h2>
-            <p>Για εμάς στην Axanth, ο κώδικας είναι το θεμέλιο. Είναι το εργαλείο με το οποίο χτίζουμε. Αλλά η πραγματική αξία της δουλειάς μας, η φιλοσοφία που μας καθοδηγεί, βρίσκεται πολύ πέρα από αυτόν.</p>
+            <h2>Η Φιλοσοφία μας: <span>Beyond the Code</span></h2>
+            <p>Για εμάς στην Axanth, ο κώδικας είναι το θεμέλιο. Είναι το εργαλείο με το οποίο χτίζουμε. Αλλά η πραγματική αξία της δουλειάς μας, η φιλοσοφία που μας καθοδηγεί, βρίσκεται πολύ πέρα από αυτόν. "Beyond the Code" σημαίνει ότι βλέπουμε τη μεγάλη εικόνα.</p>
         </div>
 
         <div class="featurette">
@@ -37,15 +37,15 @@
                 </svg>
             </div>
             <div class="featurette-text">
-                <h3>Κατανοούμε το "Γιατί"</h3>
-                <p>Πριν γράψουμε την πρώτη γραμμή κώδικα, επενδύουμε χρόνο για να κατανοήσουμε την επιχείρησή σας, τους στόχους και το κοινό σας. Δεν είμαστε απλοί εκτελεστές, αλλά στρατηγικοί συνεργάτες που μεταφράζουν το όραμά σας σε μια αποτελεσματική ψηφιακή λύση.</p>
+                <h3>1. Κατανοούμε το "Γιατί"</h3>
+                <p>Πριν γράψουμε την πρώτη γραμμή κώδικα, επενδύουμε χρόνο για να κατανοήσουμε την επιχείρησή σας, τους στόχους σας και το κοινό σας. Δεν είμαστε απλοί εκτελεστές εντολών. Είμαστε στρατηγικοί συνεργάτες που μεταφράζουν το όραμά σας σε μια λειτουργική και αποτελεσματική ψηφιακή λύση.</p>
             </div>
         </div>
 
         <div class="featurette alt-layout">
              <div class="featurette-text">
-                <h3>Σχεδιάζουμε για Ανθρώπους</h3>
-                <p>Πίσω από κάθε οθόνη υπάρχει ένας άνθρωπος. Σχεδιάζουμε κάθε λεπτομέρεια του UI/UX ώστε η εμπειρία να είναι εύκολη και ευχάριστη, χτίζοντας εμπιστοσύνη με τους χρήστες σας μέσα από την άψογη αισθητική και λειτουργικότητα.</p>
+                <h3>2. Σχεδιάζουμε για Ανθρώπους</h3>
+                <p>Πίσω από κάθε οθόνη υπάρχει ένας άνθρωπος. Η δουλειά μας είναι να κάνουμε την αλληλεπίδρασή του με την εφαρμογή σας εύκολη, ευχάριστη και διαισθητική. Εστιάζουμε στην παραμικρή λεπτομέρεια του design και του user experience, γιατί ξέρουμε ότι η καλή αισθητική χτίζει εμπιστοσύνη και η άψογη λειτουργικότητα δημιουργεί πιστούς χρήστες.</p>
             </div>
             <div class="featurette-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
@@ -61,12 +61,35 @@
                 </svg>
             </div>
             <div class="featurette-text">
-                <h3>Στοχεύουμε στο Αποτέλεσμα</h3>
-                <p>Ένα project τελειώνει όταν πετυχαίνει τον σκοπό του. Αυτό για εμάς σημαίνει ταχύτητα, ασφάλεια και αξιοπιστία που διαρκεί, δημιουργώντας μια πλατφόρμα έτοιμη να υποστηρίξει την ανάπτυξή σας σήμερα και αύριο.</p>
+                <h3>3. Στοχεύουμε στο Αποτέλεσμα</h3>
+                <p>Ένα project δεν τελειώνει με την παράδοση του κώδικα. Τελειώνει όταν πετυχαίνει τον σκοπό του. Για εμάς, αυτό σημαίνει ταχύτητα, ασφάλεια και αξιοπιστία που διαρκεί. Σημαίνει μια πλατφόρμα που όχι μόνο λειτουργεί άψογα σήμερα, αλλά είναι έτοιμη να εξελιχθεί και να υποστηρίξει την ανάπτυξή σας αύριο.</p>
             </div>
         </div>
     </div>
 </section>
+
+<section class="team-section">
+    <div class="container">
+        <div class="section-intro">
+            <h2>Η <span>Ομάδα</span> μας</h2>
+            <p>Είμαστε μια ευέλικτη ομάδα από developers και designers με πάθος για την τελειότητα.</p>
+        </div>
+        <div class="team-grid">
+            <div class="team-member">
+                <img src="https://images.unsplash.com/photo-1557862921-37829c790f19?q=80&w=2071" alt="Placeholder for team member">
+                <h3>Νίκος Παπαδόπουλος</h3>
+                <p>Founder & Lead Developer</p>
+            </div>
+             <div class="team-member">
+                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1888" alt="Placeholder for team member">
+                <h3>Ελένη Γεωργίου</h3>
+                <p>UI/UX Designer</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 <section class="cta-section">
     <div class="container">
         <h2>Ας Δώσουμε Ζωή στην Ιδέα σας.</h2>
@@ -164,6 +187,44 @@
         font-size: 1.1rem;
         color: var(--text-secondary);
         line-height: 1.8;
+    }
+
+    /* Team Section */
+    .team-section {
+        padding: 6rem 0;
+        background-color: var(--secondary-bg);
+        border-top: 1px solid var(--border-color);
+    }
+    
+    .team-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+        margin-top: 4rem;
+    }
+    
+    .team-member {
+        text-align: center;
+    }
+    
+    .team-member img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 1.5rem;
+        border: 3px solid var(--border-color);
+    }
+
+    .team-member h3 {
+        font-size: 1.4rem;
+        margin-bottom: 0.25rem;
+        color: #fff;
+    }
+    
+    .team-member p {
+        color: var(--accent-color);
+        font-family: 'Roboto Mono', monospace;
     }
 
     /* CTA Section */
